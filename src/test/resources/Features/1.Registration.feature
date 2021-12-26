@@ -24,10 +24,10 @@ Feature: Registration
   Scenario: User Registration
     Given user has opened Application 
     When user opens Home page
-    Then user should be navigated to home page
-    When user has opened login page
-    And user opts to register
-    And user enters details required
+    And user should be navigated to home page
+    And user has opened login page
+    When user opts to register
+    And user enters details
     And user enter sign up button
     Then user sign up successfully
    

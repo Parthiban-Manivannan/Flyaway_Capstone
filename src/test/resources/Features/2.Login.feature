@@ -25,4 +25,5 @@ Feature: Login
   Given user has on registration confirmed page
   When user clicks on login page
   And user enter login details 
+  Then user logged in
   

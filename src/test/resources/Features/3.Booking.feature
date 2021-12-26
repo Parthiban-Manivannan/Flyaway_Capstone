@@ -24,8 +24,7 @@ Feature: Booking
   Scenario: Booking
     Given User is on dashboard
     When user clicks home
-    And user selects bangalore as from place
-    And user selects hyderabad as to place
+    And user selects bangalore as from place and selects hyderabad as to place
     And user clicks submit button
     And user clicks Book flight button
     And user clicks complete bookings button

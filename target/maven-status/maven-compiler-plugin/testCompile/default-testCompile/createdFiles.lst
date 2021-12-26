@@ -1,2 +1,6 @@
+stepDefinitions\Booking.class
+stepDefinitions\ViewBooking.class
+stepDefinitions\Home.class
 com\runner\TestRunner.class
+stepDefinitions\Login.class
 stepDefinitions\AllSteps.class
